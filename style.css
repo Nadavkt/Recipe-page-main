@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: bisque;
+    font-family: "Young Serif", serif;
+    font-size: 13px;
+}
+
+.wrapper{
+    background-color: white;
+    max-width: 1170px;
+    margin: 50px auto;
+    width: 45%;
+    border-radius: 2%;
+}
+
+.img-recipe{
+    
+}
+.img-recipe img{
+    height: 300px;
+    width: 90%;
+    border-radius: 3%;
+    margin: 50px 40px;
+}
+
+.title-name{
+    margin-left: 40px;
+}
+
+.title-detail{
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: center;
+}
+
+.time-wrapper{
+    background-color: rgb(247, 191, 199);
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.preperation-time h3{
+    color: brown;
+}
+
+.preperation-time ul{
+    margin-left: 40px;
+}
+
+.preperation-time li{
+    line-height: 2.5;
+}
+
+.wrapper-ingredients{
+    margin-left: 40px;
+    line-height: 2.5;
+}
+
+.wrapper-ingredients ul{
+    margin-left: 10px;
+}
+
+.wrapper-instructions{
+    margin-left: 40px;
+    line-height: 2.5;
+}
+
+.wrapper-instructions ol{
+    margin-left: 10px;
+}
+
+.wrapper-nutrtion{
+    margin-left: 40px;
+    line-height: 2.5;
+}
+
+.wrapper-nutrtion ul{
+    list-style: none;
+    line-height: 2.5;
+}
+
+.warpper-nutrtion p{
+    display: inline;
+}
+
+.line-1{
+    display: inline-table;
+}
+
+.line-2{
+    display: inline;
+    margin-left: 25%;
+}
+
+hr{
+    margin-left: 25px;
+    margin-right: 25px;
+}
